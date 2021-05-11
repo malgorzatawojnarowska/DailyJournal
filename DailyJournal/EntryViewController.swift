@@ -27,6 +27,7 @@ class EntryViewController: UIViewController {
         entry.text = entryTextView.text
         
         //Add entry to tableview
+        entriesVC?.entries.append(entry)
         
     }
 
